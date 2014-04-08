@@ -1,0 +1,12 @@
+{
+  "name": "DuckDuckGo Right Click Menu",
+  "description": "Add DuckDuckGo search to your right click contextmenu.",
+  "version": "1",
+  "permissions": ["contextMenus"],
+  "icons": { "128": "logo_header.v101.hdpi.png" },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
